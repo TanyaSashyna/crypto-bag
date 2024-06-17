@@ -16,6 +16,7 @@ The template application.
 - Mobx v6.12.3
 - Styled components v6.1.11
 - Tailwind CSS v3.4.4
+- Next UI v2.4.2
 
 ## Node
 node.js v18.18.0
