@@ -13,18 +13,16 @@ const Root: FC = () => {
   // const navigate = useNavigate();
 
   return (
-    <div>
-      <Routes>
-        <Route
-          path="/"
-          element={<MainPage/>}
-        />
-        <Route
-          path="/second-page"
-          element={<SecondPage/>}
-        />
-      </Routes>
-    </div>
+    <Routes>
+      <Route
+        path="/"
+        element={<MainPage/>}
+      />
+      <Route
+        path="/second-page"
+        element={<SecondPage/>}
+      />
+    </Routes>
   )
 };
 
